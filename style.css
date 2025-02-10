@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4e4ba; /* Background color for the entire page */
+}
+
+.container {
+  background-color: #fff; /* Background color for the container */
+  padding: 2rem; /* Padding around the content inside the container */
+  border-radius: 1rem; /* Rounded corners for the container */
+  min-height: 45vh; /* Minimum height for the container */
+  width: 40vh; /* Width of the container */
+}
+
+form {
+  margin: 2rem 0 1rem 0; /* Margin for the form inside the container */
+}
+
+form select,
+button,
+input {
+  width: 100%; /* Full width for dropdowns, buttons, and inputs */
+  border: none; /* No borders for dropdowns, buttons, and inputs */
+  outline: none; /* No outline when focused */
+  border-radius: 0.75rem; /* Rounded corners for dropdowns, buttons, and inputs */
+}
+
+form input {
+  border: 1px solid lightgray; /* Light gray border for input fields */
+  font-size: 1rem; /* Font size for input fields */
+  height: 3rem; /* Height of input fields */
+  padding-left: 0.5rem; /* Left padding for input fields */
+}
+
+.dropdown {
+  display: flex; /* Flex display for dropdown section */
+  justify-content: space-between; /* Space between items in the dropdown section */
+  align-items: center; /* Center items vertically in the dropdown section */
+  margin-top: 2rem; /* Top margin for the dropdown section */
+}
+
+.dropdown i {
+  font-size: 1.5rem; /* Font size for icons */
+  margin-top: 1rem; /* Top margin for icons */
+}
+
+.select-container img {
+  max-width: 2rem; /* Maximum width for flag images */
+}
+
+.select-container {
+  display: flex; /* Flex display for select container */
+  justify-content: center; /* Center items horizontally in select container */
+  align-items: center; /* Center items vertically in select container */
+  width: 6rem; /* Width of select container */
+  border-radius: 0.5rem; /* Rounded corners for select container */
+  border: 1px solid lightgray; /* Light gray border for select container */
+}
+
+.select-container select {
+  font-size: 1rem; /* Font size for dropdowns */
+  width: auto; /* Auto width for dropdowns */
+}
+
+.msg {
+  margin: 2rem 0 2rem 0; /* Margin for message section */
+}
+
+form button {
+  height: 3rem; /* Height of the button */
+  background-color: #af4d98; /* Background color of the button */
+  color: #fff; /* Text color of the button */
+  font-size: 1.15rem; /* Font size of the button text */
+  cursor: pointer; /* Cursor style on hover */
+}
